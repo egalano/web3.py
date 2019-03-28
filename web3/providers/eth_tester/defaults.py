@@ -267,6 +267,7 @@ API_ENDPOINTS = {
         'datadir': not_implemented,
         'nodeInfo': not_implemented,
         'peers': not_implemented,
+        'removePeer': not_implemented,
         'setSolc': not_implemented,
         'startRPC': not_implemented,
         'startWS': not_implemented,

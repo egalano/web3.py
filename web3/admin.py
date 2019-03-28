@@ -36,6 +36,15 @@ def peers():
     )
 
 
+
+def removePeer():
+    return Method(
+        "admin_removePeer",
+        mungers=[default_root_munger],
+    )
+
+
+
 def setSolc():
     return Method(
         "admin_setSolc",

@@ -110,6 +110,18 @@ The following methods are available on the ``web3.geth.admin`` namespace.
         True
 
 
+.. py:method:: removePeer(node_url)
+
+    * Delegates to ``admin_removePeer`` RPC Method
+
+    Requests removing a remote node from the list of currently peered nodes.
+
+    .. code-block:: python
+
+        >>> web3.geth.admin.removePeer('enode://e54eebad24dce1f6d246bea455ffa756d97801582420b9ed681a2ea84bf376d0bd87ae8dd6dc06cdb862a2ca89ecabe1be1050be35b4e70d62bc1a092cb7e2d3@52.71.255.237:30303')
+        True
+
+
 .. py:method:: setSolc(solc_path)
 
     * Delegates to ``admin_setSolc`` RPC Method

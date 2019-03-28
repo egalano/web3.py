@@ -3,6 +3,7 @@ from web3.admin import (
     datadir,
     nodeInfo,
     peers,
+    removePeer,
     setSolc,
     startRPC,
     startWS,
@@ -75,6 +76,7 @@ class GethAdmin(ModuleV2):
     datadir = datadir()
     nodeInfo = nodeInfo()
     peers = peers()
+    removePeer = removePeer()
     setSolc = setSolc()
     startRPC = startRPC()
     startWS = startWS()
